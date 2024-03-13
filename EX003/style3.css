@@ -3,10 +3,10 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: "Titillium Web", sans-serif;
 }
-img{
+#logo1{
+    box-sizing: border-box;
     cursor: pointer;
     width: 50px;
     height: 50px;  
@@ -41,7 +41,7 @@ header{
     content: " ";
     width: 0px;
     height: 4px;
-    background-image: linear-gradient(45deg, #ff2500, #ff7100 );
+    background-image: linear-gradient(45deg, #12162B, #011E4B, #004178, #005BAA);
     position: absolute;
     top: 23px;
     left: 0;
@@ -55,7 +55,7 @@ header{
 .sociais button{
     width: 40px;
     height: 40px;
-    background-image: linear-gradient(45deg, #ff2500, #ff7100 );
+    background-image: linear-gradient(45deg,#12162B, #011E4B, #004178, #005BAA);
     border: none;
     border-radius: 10px;
     margin-right: 10px;
@@ -65,6 +65,3 @@ header{
     font-size: 20px;
     color: white;
 }
-
-
-

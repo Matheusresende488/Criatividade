@@ -21,7 +21,6 @@
     justify-content: center;
 }
 header{
-    padding: 10px;
     background-color: black;
     width: 100%;
 }
@@ -208,14 +207,20 @@ footer {
     margin-right: 8px;
 }
 
-.links ul {
+.links ul {    
     list-style: none;
-    padding: 0;
+    padding: 1px;
 }
-
+.links li:hover{
+    width: 62px;
+    background-color: white;
+}
 .links li {
-    margin-bottom: 8px;
     text-decoration: none;
+    margin-bottom: 8px;
+}
+.btn:hover{
+    background-color: #005BAA;
 }
 .btn {
     display: inline-block;
@@ -244,4 +249,11 @@ li{
 input{
     height: 27px;
     border-radius: 10px;
+}
+::-webkit-scrollbar{
+    background-color: transparent;
+    width: 0px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: transparent;
 }

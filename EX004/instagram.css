@@ -1,0 +1,51 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Meow+Script&display=swap');
+
+#logo{
+    text-align: center;
+    font-family: "Meow Script";
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 200px;
+}
+button{
+    background-color: #0097fe;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 31px;
+    margin-top: 15px;
+    width: 350px;
+}
+input{
+    height: 31px;
+    width: 350px;
+    margin-top:15px;
+    border-color: rgba(255, 255, 255, 0.11);
+    border:1px solid gainsboro;
+    border-radius: 5px;
+
+}
+
+#backgraund{
+    margin: auto;
+    height: 500px;
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+}
+button:hover{
+    background-color: #0098fed7;
+}
+a:hover{
+    color: #0098fede;
+}
+
+
+    
+
+
+  

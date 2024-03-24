@@ -4,7 +4,7 @@
 
 body{
     background-color: #9AEBA3;
-    padding: 0;
+    padding: auto;
     margin: 0;
 }
 
@@ -37,11 +37,16 @@ nav{
 }
 #p2{
     background-color: white;
-    width: 80%;
+    min-width: 320px;
+    max-width: 800px;
     height: 2300px;
     margin: auto;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.493);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
+
+
 .titulo-maior{
     font-family: "Ysabeau SC";
     text-align: left;
@@ -59,11 +64,12 @@ nav{
     margin: 15px;
     color: #ffffff;
     background-image: linear-gradient(to right, #007369, white);
-    width: 700px;
+    width: 90%;
     text-align: left;
 }
-img{ 
-   margin-left: 129px;
+main img{ 
+   margin:auto;
+   width: 100%;
 }
 .l{
     text-decoration: none;

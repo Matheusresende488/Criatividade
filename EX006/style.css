@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader{
+    width: 200px;
+    height: 200px;
+    border: 12px solid wheat;
+    border-right-color: aqua;
+    border-radius: 50%;
+    animation: spin 1s ease infinite;
+}
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}

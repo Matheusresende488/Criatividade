@@ -1,51 +1,61 @@
-@charset "UFT-8";
-
-@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Meow+Script&display=swap');
-
-#logo{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+}
+.container{
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
     text-align: center;
-    font-family: "Meow Script";
-    font-size: 25px;
-}
-
-a{
-    text-decoration: none;
-    margin-left: 200px;
-}
-button{
-    background-color: #0097fe;
-    color: white;
-    border: none;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.13);
     border-radius: 10px;
-    height: 31px;
-    margin-top: 15px;
-    width: 350px;
+    width: 320px;
 }
-input{
-    height: 31px;
-    width: 350px;
-    margin-top:15px;
-    border-color: rgba(255, 255, 255, 0.11);
-    border:1px solid gainsboro;
+.logo{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.login-form input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+}
+.login-form button{
+    width: 100%;
+    padding: 10px;
     border-radius: 5px;
-
+    border: none;
+    background-color: #0095f6;
+    color: #fff;
+    cursor: pointer;
 }
-
-#backgraund{
-    margin: auto;
-    height: 500px;
-    width: 450px;
-    background-color: rgb(255, 255, 255);
+.divider{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
 }
-button:hover{
-    background-color: #0098fed7;
+.divider::before, .divider::after{
+    content: '';
+    flex: 1;
+    border-top: 1px solid #dbdbdb;
 }
-a:hover{
-    color: #0098fede;
+.ou{
+    margin: 0 15px;
+    color: #8e8e8e;
 }
-
-
-    
-
-
-  
+.login-form a{
+    color: #0095f6;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}

@@ -9,11 +9,9 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #fafafa;
+    background-image: url(imagem01/img.jpg);
 }
 .container{
-    background-color: #fff;
-    border: 1px solid #dbdbdb;
     padding: 20px;
     text-align: center;
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.13);
@@ -24,13 +22,18 @@ body{
     width: 180px;
     margin-bottom: 20px;
 }
-.login-form input {
+.fomluario input {
     padding: 10px;
     width: 100%;
     margin-bottom: 10px;
-    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    border-top:1px solid rgba(153, 153, 153, 0.5);
+    border-right:1px solid rgba(0, 0, 0, 0.5) ;
+    border-bottom:1px solid rgba(0, 0, 0, 0.5) ;
+    border-left:1px solid rgba(153, 153, 153, 0.5);
+    backdrop-filter: blur(10px);
 }
-.login-form button{
+.fomluario button{
     width: 100%;
     padding: 10px;
     border-radius: 5px;
@@ -51,9 +54,9 @@ body{
 }
 .ou{
     margin: 0 15px;
-    color: #8e8e8e;
+    color: #ffffff;
 }
-.login-form a{
+.fomluario a{
     color: #0095f6;
     text-decoration: none;
     display: block;
